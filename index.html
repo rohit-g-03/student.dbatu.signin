@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="UniApps - University Exam ERP" />
+    <meta name="author" content="WeShineTech" />
+    <meta name="keywords" content="uniapps university exam erp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <!--CSS-->
+    <style>
+      body {
+        font-family: Inter, "Helvetica Neue", Arial, -apple-system,
+          BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", sans-serif,
+          "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+          "Noto Color Emoji";
+        background-color: #f5f7fb;
+      }
+
+      .header {
+        background-color: white;
+        height: 100px;
+        text-align: center;
+        padding: 10px;
+        box-shadow: rgba(33, 37, 41, 0.05) 0px 0px 14px 0px;
+      }
+      .header h2 {
+        margin: none;
+        padding-bottom: 10px;
+        color: #000000;
+        font-weight: 300;
+        font-size: 24.5px;
+      }
+      .form {
+        background-color: white;
+        width: 250px;
+        height: 270px;
+        margin: auto;
+        margin-top: 72px;
+        padding: 20px;
+        border-radius: 4px;
+        box-shadow: rgba(33, 37, 41, 0.05) 0px 0px 14px 0px;
+      }
+      .form span p {
+        margin: 25px 0px;
+        color: #6c757d;
+        font-size: 12px;
+      }
+      
+      input[type="text"] {
+        width: 90%;
+        padding: 8px 15px;
+        margin-top: 5px;
+        font-size: 13px;
+        border: 1px solid #9da6afb7;
+        border-radius: 3.2px;
+      }
+      input[type="text"]:focus {
+        outline: 1px solid #9da6afd1;
+        box-shadow: 0px 0px 0px 3.2px rgba(59, 125, 221, 0.25);
+      }
+
+      input[type="submit"] {
+        background-color: white;
+        padding: 3px 8px;
+        margin: 7px 0px;
+        border: 1px solid #dc3545;
+        color: #dc3545;
+        font-size: 13px;
+        text-decoration: none;
+      }
+      input[type="submit"]:hover {
+        background-color: #dc3545;
+        color: white;
+        border-radius: 1.6px;
+        cursor: pointer;
+      }
+      input[type="submit"]:focus {
+        box-shadow: 0px 0px 0px 3.2px rgba(220, 53, 59, 0.5);
+      }
+
+      .forgot-btn {
+        text-decoration: none;
+        color: #3b7ddd;
+      }
+      .forgot-btn:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="./assets/dbatu.jpg" height="65px" alt="" />
+      <h2 style="margin:0px;" >Dr. Babasaheb Ambedkar Technological University</h2>
+      <br />
+    </div>
+
+    <div class="form">
+      <form action="https://rohitgite03.github.io/dbatu.dashbord/index.html">
+        <span style="color: #939ba2; font-weight: bold">Sign In</span>
+        <div class="form-item">
+          <span>
+            <p>
+              Username *<input
+                type="text"
+                name="username"
+                id="username"
+                required=""
+                placeholder="Username"
+              />
+            </p>
+          </span>
+          <span>
+            <p>
+              Password *<input
+                type="text"
+                name="Password"
+                id="password"
+                required=""
+                placeholder="Password"
+              />
+            </p>
+          </span>
+          <input type="submit" value="Login" />
+
+          <br>
+          <p style="text-align: center">
+            <a class="forgot-btn" href="#">Forgot Password</a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
